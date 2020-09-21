@@ -1,4 +1,5 @@
 import receipe from './receipe.jpg';
+
 const tabsModule = (() => {
   const tabsSection = document.createElement('div');
   tabsSection.setAttribute('class', 'tab-content');

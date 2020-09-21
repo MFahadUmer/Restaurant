@@ -21,7 +21,7 @@
 
 ## Live version
 
-Heres a live <a href="https://raw.githack.com/MFahadUmer/Library/feature/index.html">link</a>
+Heres a live <a href="https://rawcdn.githack.com/MFahadUmer/Restaurant/3a822f76a70eb1174292521db6216f8d11c77f7b/dist/index.html">link</a>
 
 ## Features
 
