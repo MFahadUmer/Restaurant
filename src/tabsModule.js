@@ -1,9 +1,9 @@
 import receipe from './receipe.jpg';
 const tabsModule = (() => {
   const tabsSection = document.createElement('div');
-  tabsSection.setAttribute('class','tab-content');
-  tabsSection.setAttribute('id','pills-tabContent');
-  tabsSection.innerHTML =  ` <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+  tabsSection.setAttribute('class', 'tab-content');
+  tabsSection.setAttribute('id', 'pills-tabContent');
+  tabsSection.innerHTML = `<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
             <div class="intro">
                 <div class="intro-section">
                     <h1>Have you tried Pakistani Food yet?</h1>

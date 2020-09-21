@@ -1,4 +1,5 @@
 import logo from './logo.jpg';
+
 const navbarModule = (() => {
   const navbar = document.createElement('nav');
   navbar.setAttribute('class', 'navbar');
@@ -17,6 +18,5 @@ const navbarModule = (() => {
            </li>
        </ul>`;
   document.querySelector('.section').appendChild(navbar);
-
 })();
 export default navbarModule;
