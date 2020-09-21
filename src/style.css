@@ -25,11 +25,11 @@
   position: fixed;
   width: 100vw;
   background-color: #335a0a;
-  padding: 20px 0px ;
+  padding: 20px 0;
   display: flex;
   justify-content: space-between;
   z-index: 2;
-  box-shadow: 0px 10px 30px #335a0a;
+  box-shadow: 0 10px 30px #335a0a;
 }
 
 .logo-img {
@@ -38,7 +38,6 @@
   border-radius: 50%;
   border: 4px white dashed;
 }
-
 
 .navbar-section {
   list-style: none;
@@ -61,7 +60,8 @@
   border-radius: 5px;
 }
 
-.active, .navbar-link:hover {
+.active,
+.navbar-link:hover {
   color: brown;
   background-color: white;
   text-decoration: none;
