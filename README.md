@@ -42,6 +42,26 @@ This project was built from scratch and in this project we only used to manage i
 - webpack
 - bundle
 
+## Instructions for running app Locally
+
+Restaurant App is easier to setup. 
+You can use Sourcetree,
+Git from the command line to clone your Git repository.
+These instructions show you how to clone your repository using Git from the terminal. 
+First, from the repository, click + in the global sidebar and select Clone this repository under Get to work.
+
+Secondly, Copy the clone command (either the SSH format or the HTTPS). 
+If you are using the SSH protocol, ensure your public key is in github and loaded on the local system to which you are cloning.
+
+Third, From a terminal window, change to the local directory where you want to clone your repository. Paste the command you copied from Github using git clone followed by link or clone command.
+If the clone was successful, a new sub-directory appears on your local drive in the directory where you cloned your repository. This directory has the same name as the github repository that you cloned. 
+
+Fourth, run [npm install] from the Terminal
+
+Fifth, run [npm run build] from the terminal
+
+Sixth, Open dist/index.html page with browser
+
 ## Authors
 
 Reach out to us!
