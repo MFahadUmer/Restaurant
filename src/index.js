@@ -6,4 +6,7 @@ import './style.css';
 import backgroundModule from './backgroundModule';
 import navbarModule from './navbarModulr';
 import tabsModule from './tabsModule';
+import homeTabModule from "./homeTabModule";
+import conatctTabModule from "./contactTabModule";
+import menuTabModule from "./menuTabModule";
 /* eslint-enable no-unused-vars */
