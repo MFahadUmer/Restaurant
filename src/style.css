@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.logoLink {
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+
+.logo {
+  padding-left: 20px;
+}
+
+.navbar {
+  background-position: center;
+  position: fixed;
+  width: 100vw;
+  background-color: #335a0a;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  box-shadow: 0 10px 30px #335a0a;
+}
+
+.logo-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 4px white dashed;
+}
+
+.navbar-section {
+  list-style: none;
+  display: flex;
+  padding: 20px 0;
+  justify-content: center;
+}
+
+.navbar-item {
+  padding: 0 20px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  background: brown;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.active,
+.navbar-link:hover {
+  color: brown;
+  background-color: white;
+  text-decoration: none;
+}
+
+.intro {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro-section {
+  color: brown;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.contact-para {
+  width: 50vw;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 15px;
+  line-height: 30px;
+  background-color: green;
+  color: white;
+}
+
+.menu-section {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 30px;
+}
+
+.menu-div {
+  padding: 15px;
+  margin: 10px 30px;
+  height: 400px;
+  border-radius: 20px;
+  background-color: brown;
+}
+
+.menu-div-img-div {
+  width: 350px;
+  height: 350px;
+}
+
+.menu-image {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.receipe-name {
+  padding: 5px 0;
+  color: white;
+  font-size: 26px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.menu-main-section {
+  position: relative;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
